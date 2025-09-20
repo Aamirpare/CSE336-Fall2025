@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Product | Online Books</title>
+
+    <style>
+        div {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="./result.html" method="post">
+        <div>
+            <label for="title">Book Tile</label>
+            <input type="text" id="title">
+        </div>
+
+        <div>
+            <label for="author">Author</label>
+            <input type="text" id="author">
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" id="email">
+        </div>
+
+        <div>
+            <label for="price">Price</label>
+            <input type="number" min="100" id="price">
+        </div>
+        <div>
+            <label for="comment">Comment</label>
+            <textarea name="comment" rows="5" id="comment"></textarea>
+        </div>
+        <div>
+            <label for="roles">Roles</label>
+            <select name="roles" id="roles">
+                <option value="0">Select Role</option>
+                <option value="1">Admin</option>
+                <option value="2">Faculty</option>
+                <option value="3">Student</option>
+                <option value="4">Hod</option>
+            </select>
+        </div>
+        <div>
+            <button type="submit" id="btn-Save">Save</button>
+        </div>
+
+
+    </form>
+</body>
+
+</html>

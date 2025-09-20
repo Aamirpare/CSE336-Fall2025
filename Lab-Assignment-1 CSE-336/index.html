@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Online Books</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            /* width: 90%; */
+            margin: auto;
+        }
+
+        /* top menu bar start */
+        .top-menu {
+            background: rgba(0, 0, 0, 0.5);
+            min-height: 60px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .top-menu ul {
+            list-style-type: none;
+            display: flex;
+        }
+
+        .top-menu ul>li {
+            padding: 10px;
+        }
+
+        .top-menu ul>li>a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .top-menu ul>li>a:hover {
+            font-weight: bold;
+        }
+
+        /* top menu bar end */
+
+        .main {
+            width: 90%;
+            margin: auto;
+            margin-top: 10px;
+        }
+
+        .table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        .table th,
+        .table td {
+            border: 1px solid #555;
+            padding: 10px;
+        }
+
+        .btn {
+            border: none;
+            background: #ccc;
+            padding: 10px;
+            border-radius: 6px;
+            cursor: pointer;
+            color: #fff;
+        }
+
+        .btn:hover {
+            transform: scale(98%);
+        }
+
+        .btn-danger {
+            background-color: #900;
+        }
+
+        .btn-primary {
+            background-color: #009;
+        }
+
+        .btn-success {
+            background-color: #090;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="container">
+        <div class="top-menu">
+            <ul class="top-menu-left">
+                <li><a href="#">Home</a></li>
+                <li><a href="./services.html">Services</a></li>
+                <li><a href="./new-product.html">Products</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+
+            <ul class="top-menu-right">
+                <li><a href="#">Register</a></li>
+                <li><a href="#">Login</a></li>
+            </ul>
+        </div>
+        <div class="main">
+            <h2>Product List</h2>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Id</th>
+                        <th>Title</th>
+                        <th>Athor</th>
+                        <th>Price</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>100</td>
+                        <td>Begining Laravel & PHP</td>
+                        <td>Micheal Corman</td>
+                        <td>$120</td>
+                        <td>
+                            <button class="btn btn-primary">View</button>
+                            <button class="btn btn-danger">Delete</button>
+                            <button class="btn btn-success">Edit</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>100</td>
+                        <td>Begining Laravel & PHP</td>
+                        <td>Micheal Corman</td>
+                        <td>$120</td>
+                        <td>
+                            <button class="btn btn-primary">View</button>
+                            <button class="btn btn-danger">Delete</button>
+                            <button class="btn btn-success">Edit</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>100</td>
+                        <td>Begining Laravel & PHP</td>
+                        <td>Micheal Corman</td>
+                        <td>$120</td>
+                        <td>
+                            <button class="btn btn-primary">View</button>
+                            <button class="btn btn-danger">Delete</button>
+                            <button class="btn btn-success">Edit</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>100</td>
+                        <td>Begining Laravel & PHP</td>
+                        <td>Micheal Corman</td>
+                        <td>$120</td>
+                        <td>
+                            <button class="btn btn-primary">View</button>
+                            <button class="btn btn-danger">Delete</button>
+                            <button class="btn btn-success">Edit</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>100</td>
+                        <td>Begining Laravel & PHP</td>
+                        <td>Micheal Corman</td>
+                        <td>$120</td>
+                        <td>
+                            <button class="btn btn-primary">View</button>
+                            <button class="btn btn-danger">Delete</button>
+                            <button class="btn btn-success">Edit</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>100</td>
+                        <td>Begining Laravel & PHP</td>
+                        <td>Micheal Corman</td>
+                        <td>$120</td>
+                        <td>
+                            <button class="btn btn-primary">View</button>
+                            <button class="btn btn-danger">Delete</button>
+                            <button class="btn btn-success">Edit</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>100</td>
+                        <td>Begining Laravel & PHP</td>
+                        <td>Micheal Corman</td>
+                        <td>$120</td>
+                        <td>
+                            <button class="btn btn-primary">View</button>
+                            <button class="btn btn-danger">Delete</button>
+                            <button class="btn btn-success">Edit</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+</body>
+
+</html>
